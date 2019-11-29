@@ -24,7 +24,7 @@ class Day3(inputList: MutableList<String>) {
 
             val listOfPairs = mutableListOf<Pair<Int, Int>>()
 
-            for (x in xLeft until (xLeft + width)) {
+                for (x in xLeft until (xLeft + width)) {
 
                 for (y in yTop until (yTop + height)) {
                     listOfPairs.add(Pair(x, y))

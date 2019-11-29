@@ -9,9 +9,12 @@ internal class Day12Test {
     private var day12 = Day12(input)
 
 
-    @Test
     fun part1Test() {
         print(day12.part1())
+    }
+
+    fun part2Test() {
+        print(day12.part2())
     }
 
 
