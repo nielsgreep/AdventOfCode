@@ -1,11 +1,11 @@
 package advent2019.challenges
 
+import advent2019.Utils.readInputOfDayAsStringList
 import org.junit.Test
-import java.io.File
 
 internal class Day1Test {
 
-    private val input = File("src/main/resources/advent2019/day1.txt").readLines()
+    private val input = readInputOfDayAsStringList(1)
     private var day1 = Day1(input)
 
     @Test
